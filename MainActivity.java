@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView addressTextView = null;
     private Uri fileUri = null;
     private FFmpegMediaMetadataRetriever mediaMetadataRetriever = null;
-    private Long maxDur;
+    private Long maxDur = null;
     private String videoPath;
 
     @Override
